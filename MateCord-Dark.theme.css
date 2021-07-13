@@ -16,4 +16,8 @@
   
     /* TUSL */
     --separator-visibility: visible; /* DEFAULT: hidden; */
+    
+    /* Pixels */ /* Use 6px and 3px respectively if you have problems. */
+    --disw-1: 26px;
+    --disw-2: 19px; 
 }
