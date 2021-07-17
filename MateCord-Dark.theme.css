@@ -20,5 +20,8 @@
     /* User Region Pixels (Avatar, Name, Subtitle and Others) */ /* Use 6px and 3px respectively if you have problems. */
     /* DEFAULT: 26px; 19px */
     --disw-1: 26px;
-    --disw-2: 19px; 
+    --disw-2: 19px;
+    
+    /* Logo */
+    --logo-image: url("https://caffejappa.github.io/MateCord%20Dark/assets/matecord.png"); /* Change "matecord.png" to "matecord2.png" if you want its second version. */
 }
