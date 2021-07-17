@@ -18,6 +18,7 @@
     --separator-visibility: visible; /* DEFAULT: hidden; */
     
     /* User Region Pixels (Avatar, Name, Subtitle and Others) */ /* Use 6px and 3px respectively if you have problems. */
+    /* DEFAULT: 26px; 19px */
     --disw-1: 26px;
     --disw-2: 19px; 
 }
