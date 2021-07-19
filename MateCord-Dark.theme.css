@@ -1,7 +1,7 @@
 /**
  * @name MateCord Dark
  * @author Bellotto#8880
- * @version 1.0.6
+ * @version 1.0.8
  * @description A simple, smooth and clean Discord theme based off Ubuntu MATE colors and other dark colors.
  * @source https://github.com/CaffeJappa/MateCord-Dark
  * @authorId 806685903200190544
@@ -15,13 +15,14 @@
     --general-font: 'Ubuntu';
   
     /* TUSL */
-    --separator-visibility: visible; /* DEFAULT: hidden; */
+    --separator-visibility: visible; /* Default: hidden | Alternatives: hidden, visible */
     
-    /* User Region Pixels (Avatar, Name, Subtitle and Others) */ /* Use 6px and 3px respectively if you have problems. */
-    /* DEFAULT: 26px; 19px */
-    --disw-1: 26px;
-    --disw-2: 19px;
-    
+    /* User Region Pixels (Avatar, Name, Subtitle and Others); */
+    --disw-1: 26px; /* Default: 26px | Alternative: 6px */
+    --disw-2: 23px; /* Default: 23px | Alternative: 3px */
+    --nt: 52px; /* Default: 52px | Alternative: 33px; */
+    --nl: 55px; /* Default: 55px */
+
     /* Logo */
-    --logo-image: url("https://caffejappa.github.io/MateCord%20Dark/assets/matecord.png"); /* Change "matecord.png" to "matecord2.png" if you want its second version. */
+    --logo-image: url("https://caffejappa.github.io/MateCord%20Dark/assets/matecord.png"); /* Default: matecord.png | Alternatives: matecord.png, matecord2.png */
 }
